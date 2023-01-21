@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url("../img/BlackJack.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  font-family: sans-serif;
+}
+
+h1 {
+  color: white;
+  font-weight: bold;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 50px;
+  text-shadow: 0 0 3px #fff, 0 0 8px #fff, 0 0 16px #fff, 0 0 42px rgb(232, 42, 93),
+    0 0 82px rgb(232, 42, 93), 0 0 92px rgb(232, 42, 93),
+    0 0 102px rgb(232, 42, 93), 0 0 151px rgb(232, 42, 93);
+  font-family: "Abril Fatface", cursive;
+}
+
+p {
+  color: white;
+  margin: 20px 0;
+  text-align: center;
+}
+
+#message-el {
+  margin-top: 120px;
+  margin-bottom: 40px;
+  font-size: 44px;
+  text-shadow: 0px 0px 6px white;
+}
+
+#start-game, #new-card {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  padding: 16px 0px;
+  font-size: 18px;
+  border-radius: 10px;
+  border: none;
+  background:#6494cb;
+  color: #f50d5b;
+  text-shadow: 2px 2px 6px rgb(54, 54, 54);
+  font-weight: bold;
+  cursor: pointer;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+#player-el {
+  margin-top: 100px;
+}
